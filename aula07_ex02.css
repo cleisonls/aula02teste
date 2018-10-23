@@ -1,0 +1,51 @@
+  
+
+  *{
+	  margin: 0;
+	  padding: 0;
+  }
+ 
+ 
+ body{
+	background: #008B8B;
+ }
+ 
+ #titulo{
+	font-size: 1.8em;
+	font-weight: bold;
+	font-size: 1.4em;
+	width:100%;
+	height: 100px;
+	background: #000;
+	color: #fff;
+	padding: 6%;
+ }
+ #icone{
+ display: none;
+ }
+ 
+ @media only screen and (max-width: 600px){
+	body{
+		 background-color: #008B8B;
+	}
+	 
+	#titulo{
+	font-size: 1.4em;
+	width:100%;
+	height: 150px;
+	background: #000;
+	color: #fff;
+	padding: 2%;
+	}
+	
+	#tit{
+		display: none;
+	}
+	
+	 #icone{
+	 display: block;
+	margin-left: 75%;
+	margin-top: -30%;
+	}
+	
+ }
